@@ -17,9 +17,81 @@ body {
     list-style: none;
 }
 
+.startContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 6em;
+    margin: 4em 6em;
+}
+
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 4em 6em;
-    background-color:pink;
+    margin: 4em 6em;
+    border-bottom: 1px dotted lightgray;
+}
+
+.answerContainer {
+    display: flex;
+    font-style: italic;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 6em;
+    margin: 4em 6em;
+    color: lightgray;
+}
+
+.startButton {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    width: 35%;
+    padding: 1em;
+    margin: .5em;
+}
+
+.startButton:hover {
+    background-color: rgb(113, 36, 189);
+    color: white;
+    border: none;
+    border-radius: 1em;
+    width: 35%;
+    padding: 1em;
+    margin: .5em;
+    cursor: grabbing;
+}
+
+
+.answerButtons {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    text-align: left;
+    width: 35%;
+    padding: 1em;
+    margin: .5em;
+}
+
+.answerButtons:hover {
+    background-color: rgb(113, 36, 189);
+    color: white;
+    border: none;
+    border-radius: 1em;
+    width: 35%;
+    padding: 1em;
+    margin: .5em;
+    cursor: grabbing;
+}
+
+p {
+    width: 45%;
+    margin: 1em;
+    text-align: center;
+    line-height: 1.3;
 }
