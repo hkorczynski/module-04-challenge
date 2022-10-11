@@ -45,6 +45,15 @@ body {
     color: lightgray;
 }
 
+.resultsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 6em;
+    margin: 4em 6em;
+    color: lightgray;
+}
+
 .startButton {
     background-color: blueviolet;
     color: white;
